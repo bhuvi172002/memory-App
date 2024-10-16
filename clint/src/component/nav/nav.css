@@ -1,0 +1,81 @@
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.navbarr{
+    height: 50px;
+    width: 100%;
+    background-color: #204b3b;
+    padding: 10px;
+   margin-bottom: 20px;
+}
+.navbarr button{
+  float: right;
+ font-size: 15px;
+  padding: 0px 40px;
+  font-weight: 600;
+  background-color:#ECE7E2 ;
+  color:  #234a3b ;
+  border-radius: 40px;
+  border: none;
+  transition: all 0.5s;
+  z-index: 1000;
+  &:hover{
+    background-color: #234a3b;
+    color: #ECE7E2;
+    box-shadow: 2px 2px 12px white;
+    cursor: pointer;
+  }
+}
+.welcome{
+    display: flex;
+    position: absolute;
+    left: 0;
+    padding: 0px 20px;
+}
+.welcome span{
+   background-color: #ECE7E2;
+   color: #234a3b;
+  border-radius: 50%;
+   padding: 5px 10px;
+   margin: 10px;
+   font-weight: 800;
+}
+.welcome h4{
+ color: #ECE7E2;
+ font-weight: 1000;
+}
+.welcomein{
+    margin-top: 5px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+   
+}
+.welcomein span {
+     padding: 0px 30px;
+     color: #ECE7E2;
+}
+.welcomein span h6 {
+   font-size: 16px;
+   font-weight: 900;
+   transition: all 0.5s;
+   &:hover{
+   text-shadow: 2px 2px 10px white;
+    cursor: pointer;
+   }
+}
+.well{
+  display: inline;
+  position: absolute;
+  top: 0;
+}
+@media (min-width:500px){
+        .well{
+          display: none;
+        }
+
+}

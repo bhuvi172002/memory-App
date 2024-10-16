@@ -1,0 +1,19 @@
+.hello{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.tst{
+
+    overflow-y: scroll;
+    
+}
+.tst::-webkit-scrollbar{
+
+display: none;
+}
